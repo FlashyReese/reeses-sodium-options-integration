@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "reeses-sodium-options-extra",
+  "version": "${version}",
+  "name": "Reese's Sodium Options Extra",
+  "description": "Interconnect other visual related options mod to Sodium's Menu",
+  "authors": [
+    "FlashyReese"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FlashyReese/reeses-sodium-options-extra",
+    "issues": "https://github.com/FlashyReese/reeses-sodium-options-extra/issues",
+    "sources": "https://github.com/FlashyReese/reeses-sodium-options-extra.git"
+  },
+  "icon": "assets/reeses-sodium-options-extra/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "reeses-sodium-options-extra.mixins.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "parent": {
+        "id": "reeses-sodium-options"
+      }
+    }
+  },
+  "depends": {
+    "reeses-sodium-options": ">=1.4.5",
+    "fabricloader": ">=0.14.8"
+  }
+}
